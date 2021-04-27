@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" >
+    <link rel="stylesheet" href="../css/Loguin.css">
+    <link rel="stylesheet" href="../css/Formulario.css">
+    
+</head>
+    <body>
+        <aside class="descBox"><span>20% de descuento en todos los productos</span></aside>
+        <header>
+            <div  class="Ecommerce"><img src="../img/OBJECTS.png" alt=""><h1>Nombre Tienda</h1></div>
+            <div class="contactHeader">
+                <a href="../contacto.html"> Contacto   </a>
+                <a href="../registro.html"> Registrarse   </a>
+                <a href="../login.html"> Ingresar </a>
+            </div>
+        </header>
+        <main>    
+            <form>
+                <h3>Añadi tu Super!</h3>
+                <h4>Agrega tu personaje favorito completando las opciones</h4>
+                <div class="formularioSuper">
+                    <div class="parte1">
+                        <div class="fila1">
+                            <label class="required" for="nombre">Nombre</label>
+                            <label class="required" for="especie">Especie</label>
+                        </div>
+                        <div class="fila2">
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                            <select required>
+                                <option value="">Especie</option>
+                                <option value="">Unknown</option>
+                            </select>
+                        </div>
+                        <div class="fila3">   
+                            <label for="fecha">Fecha </label>
+                            <label for="foto">Agregar foto</label>
+                        </div>
+                        <div class="fila4">
+                            <input type="date" id="fecha">
+                            <input type="file" name="foto" id="foto">
+                        </div>
+                    </div>
+                    <div class="parte2">
+                        <textarea placeholder="Descripcion"></textarea>
+                    </div>
+                    <div>
+                        <label class="poderes" for="poderes">Poderes</label>                    
+                        <input class="checkbox" type="checkbox" id="poderes" value="volar">
+                        <label class="volar" for="volar" value="volar">Volar</label>
+                        <input class="checkbox1" type="checkbox" id="inteligente" value="inteligente">
+                        <label class="superinteligente" for="inteligente">Superinteligencia</label> 
+                        <input class="checkbox2"type="checkbox" id="laser" value="laser">
+                        <label class="vistaLaser" for="laser">Vista de rayos laser</label>                                          
+                        <input class="checkbox3"type="checkbox" id="rico" value="billetera">
+                        <label class="billetera" for="rico">Billetera gorda</label>
+                    </div>
+                    <div class="part4">
+                        <label class="personaje"for="personajes">Tipo de personajes</label>                    
+                        <input class="radioHeroe"type="radio" name="personajes" id="personajes" value="1">
+                        <label class="heroe"for="personajes">Heroe / Heroina</label>
+                        <input class="radioVillano" type="radio" name="personajes" id="personajes" value="2">
+                        <label class="villano"for="personajes">Villano / Villana</label>
+                    </div>
+                    <button type="submit">Añadir</button>
+                </div>
+            </form>          
+        </main>
+        <footer>
+           <p class="textFooter">Todos los derechos reservados a FRONT-END I</p> 
+        </footer>
+    </body>
+</html>

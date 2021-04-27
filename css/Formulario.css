@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+/*----------------HEADER------------------*/
+.contactHeader{
+    height: 50px;
+    background-color: black;
+    text-align: right;
+    padding-top: 14px;
+    padding-right: 15px;
+    color: white;
+}
+a{
+    margin-right: 15px;
+    color: var(--Third-color);
+    text-decoration: none;
+}
+img{
+    float: left;
+    display: inline;
+    margin-left: 0%;
+    width: 90px;
+    margin-bottom: 0%;
+    margin-right: 20px;
+}
+/*----------------BODY------------------*/
+
+h3, h4{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 54px;
+    font-weight: bold;    
+    left: 500px;
+    bottom: 305px; 
+}
+h4{
+    font-size: 22px;
+    font-weight: normal;
+    left: 420px;
+    bottom: 280px;  
+}
+.formularioSuper{
+    background-color: #00669F;
+    margin-top: 5%;
+    margin-left: 17%;
+    width: 70%;
+    height: 920px;
+    box-shadow: 0px 0px 2px 1px;
+    border-radius: 49.0901px;
+}
+.parte1{
+    position: relative;
+    padding-top: 150px;
+}
+label{
+    display: inline;
+    margin-left: 120px;
+    margin-right: 160px;
+    padding-right: 60px;
+    font-size: 18px;
+    color: white;
+}
+.required::before{
+    content: "*";
+    margin-right: 5px;
+    font-size: 18px;
+}
+input, select{
+    border: 1px solid #00669F; 
+    border-radius: 20px;
+    font-size: 18px;
+    display: inline;
+    width: 35%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+input, select::placeholder{
+    color:grey;
+}
+input:focus::placeholder{
+    color: transparent
+}
+textarea{
+    display: inline;
+    width: 330px;
+    height: 360px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 24px;
+    margin-left: 90px;
+}
+.poderes{
+    position: absolute;
+    left: 620px;
+    bottom: -10px;
+}
+.checkbox{
+    position: absolute;
+    left: 650px;
+    bottom: -90px;
+    width: 25px;
+    height: 30px;
+}
+.checkbox1{
+    position: absolute;
+    left: 650px;
+    bottom: -130px;
+    width: 25px;
+    height: 30px;
+}
+.checkbox2{
+    position: absolute;
+    left: 650px;
+    bottom: -170px;
+    width: 25px;
+    height: 30px;
+}
+.checkbox3{
+    position: absolute;
+    left: 650px;
+    bottom: -210px;
+    width: 25px;
+    height: 30px;
+}
+.volar{
+    position: absolute;
+    left: 670px;
+    bottom: -55.5px;
+}
+.superinteligente{
+    position: absolute;
+    left: 670px;
+    bottom: -93.5px;
+}
+.vistaLaser{
+    position: absolute;
+    left: 670px;
+    bottom: -134.4px;
+}
+.billetera{
+    position: absolute;
+    left: 670px;
+    bottom: -176px;
+}
+.part4{
+    position: absolute;
+    border-top: 2px solid white;
+    width: 27%;
+    left: 740px;
+    bottom: -205px;
+}
+.personaje{
+    position: absolute;
+    left: -120px;
+    bottom: -50px;
+    width: 100%;
+    padding-right: 0%;
+}
+.radioHeroe{
+    position: absolute;
+    left: -90px;
+    bottom: -125px;
+    width: 25px;
+    height: 30px;
+    padding-right: 0%;
+}
+.heroe{
+    position: absolute;
+    left: -80px;
+    bottom: -90px;
+    width: 100%;
+    padding-right: 0%;
+}
+.radioVillano{
+    position: absolute;
+    left: -90px;
+    bottom: -165px;
+    width: 25px;
+    height: 30px;
+    padding-right: 0%;
+}
+.villano{
+    position: absolute;
+    left: -80px;
+    bottom: -132px;
+    width: 100%;
+    padding-right: 0%;
+}
+button{
+    position: absolute;
+    border: 1px solid #1CD1B0;
+    background-color: #1CD1B0;
+    font-weight: bold;
+    width: 38%;
+    height: 90px;
+    border-radius: 20px;
+    left: 430px;
+    bottom: -480px;
+    font-size: 30px;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
